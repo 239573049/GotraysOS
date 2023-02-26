@@ -1,4 +1,4 @@
-import { Col, Divider, Modal, Row } from "antd";
+import { Avatar, Col, Divider, Modal, Row } from "antd";
 import Search from "antd/es/input/Search";
 import { Component, ReactNode } from "react";
 import Icon from "@ant-design/icons";
@@ -187,7 +187,6 @@ const Masa = () => (
   </svg>
 );
 
-
 export default class WidowsTools extends Component<IProps, IState> {
   state: Readonly<IState> = {
     windowsForm: [],
@@ -251,6 +250,22 @@ export default class WidowsTools extends Component<IProps, IState> {
       href: "https://blazor-pro.masastack.com/dashboard/ecommerce",
     });
 
+    application.push({
+      key: "ImKK",
+      avatar: (
+        <Avatar
+          src={
+            <img
+              src="https://token-os.oss-cn-beijing.aliyuncs.com/QQ%E5%9B%BE%E7%89%8720230227011546.jpg"
+              alt="avatar"
+            />
+          }
+        />
+      ),
+      title: "ImKK",
+      href: "https://imkk.pro",
+    });
+
     this.setState({
       application,
     });
@@ -293,7 +308,8 @@ export default class WidowsTools extends Component<IProps, IState> {
                     className="list"
                     onClick={() => this.openTools(x)}
                   >
-                    <Icon component={x.icon} />
+                    {x.icon ? <Icon component={x.icon} /> : x.avatar}
+
                     <div>{x.title}</div>
                   </Col>
                 );
