@@ -76,7 +76,7 @@ export const LockScreen = (props) => {
   const dispatch = useDispatch();
 
   // const userName = useSelector((state) => state.setting.person.name);
-  const userName = 'Token OS'
+  const userName = "Token OS";
 
   const action = (e) => {
     var act = e.target.dataset.action,
