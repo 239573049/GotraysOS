@@ -26,6 +26,7 @@ var { taskbar, desktop, pinned, recent } = {
     "Masa",
     "Masa Pro",
     "博客园",
+    "Perry"
   ],
   pinned: (localStorage.getItem("pinned") &&
     JSON.parse(localStorage.getItem("pinned"))) || [
@@ -49,7 +50,8 @@ var { taskbar, desktop, pinned, recent } = {
     "博客",
     "Masa",
     "Masa Pro",
-    "博客园"
+    "博客园",
+    "Perry"
   ],
   recent: (localStorage.getItem("recent") &&
     JSON.parse(localStorage.getItem("recent"))) || [

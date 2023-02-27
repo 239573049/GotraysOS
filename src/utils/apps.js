@@ -322,6 +322,13 @@ const apps = [
     payload: "https://www.cnblogs.com/",
   },
   {
+    name: "Perry",
+    icon: "perry",
+    type: "svg",
+    action: "EDGELINK",
+    payload: "https://wosperry.com/",
+  },
+  {
     name: "Discord",
     icon: "discord",
     type: "app",
