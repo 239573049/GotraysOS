@@ -49,7 +49,7 @@ var { taskbar, desktop, pinned, recent } = {
     "博客",
     "Masa",
     "Masa Pro",
-    "博客园"
+    "博客园",
   ],
   recent: (localStorage.getItem("recent") &&
     JSON.parse(localStorage.getItem("recent"))) || [
