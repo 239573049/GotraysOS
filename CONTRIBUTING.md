@@ -5,14 +5,14 @@
 Before you begin:
 
 - This site is powered ⚡ by React.js
-- Check out the [existing issues](https://github.com/blueedgetechno/win11React/issues), [pull requests](https://github.com/blueedgetechno/win11React/pulls) and [discussions](https://github.com/blueedgetechno/win11React/discussions).
-- Check the [already existing and upcoming features](https://github.com/blueedgetechno/win11React#features).
+- Check out the [existing issues](https://github.com/239573049/GotraysOS/issues), [pull requests](https://github.com/239573049/GotraysOS/pulls) and [discussions](https://github.com/239573049/GotraysOS/discussions).
+- Check the [already existing and upcoming features](https://github.com/239573049/GotraysOS#features).
 
-Before you make your changes, check to see if an [issue exists](https://github.com/blueedgetechno/win11React/issues) already for the change you want to make.
+Before you make your changes, check to see if an [issue exists](https://github.com/239573049/GotraysOS/issues) already for the change you want to make.
 
 ### Don't see your issue? Open one
 
-If you spot something new, [open an issue](https://github.com/blueedgetechno/win11React/issues/new/choose). We'll use the issue to have a conversation 🗣 about the problem you want to fix.
+If you spot something new, [open an issue](https://github.com/239573049/GotraysOS/issues/new/choose). We'll use the issue to have a conversation 🗣 about the problem you want to fix.
 
 ### Ready to make a change? Fork the repo
 
@@ -24,7 +24,7 @@ If you spot something new, [open an issue](https://github.com/blueedgetechno/win
 
 ### Open a pull request
 
-When you're done making changes and you'd like to propose them for review, use the [pull request tab](https://github.com/blueedgetechno/win11React/pulls) to open your PR.
+When you're done making changes and you'd like to propose them for review, use the [pull request tab](https://github.com/239573049/GotraysOS/pulls) to open your PR.
 
 Once you submit your PR, we will review it with you. The first thing you're going to want to do is a self review 🧾.
 
@@ -32,4 +32,4 @@ Once you submit your PR, we will review it with you. The first thing you're goin
 
 Congratulations 🎊!
 
-Once your PR is merged, you will be proudly listed as a contributor in the [contributor chart](https://github.com/blueedgetechno/win11React/graphs/contributors).
+Once your PR is merged, you will be proudly listed as a contributor in the [contributor chart](https://github.com/239573049/GotraysOS/graphs/contributors).

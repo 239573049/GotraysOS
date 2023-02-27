@@ -277,7 +277,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://github.com/blueedgetechno/win11React",
+    payload: "https://github.com/239573049/GotraysOS",
   },
   {
     name: "沙漠的狼",
