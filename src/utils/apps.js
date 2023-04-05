@@ -130,16 +130,6 @@ const apps = [
     type: "app",
   },
   {
-    name: "Xbox",
-    icon: "xbox",
-    type: "app",
-  },
-  {
-    name: "Office",
-    icon: "msoffice",
-    type: "app",
-  },
-  {
     name: "Narrator",
     icon: "narrator",
     type: "app",
@@ -186,13 +176,6 @@ const apps = [
     type: "app",
   },
   {
-    name: "Pinterest",
-    icon: "pinterest",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://www.pinterest.com/blueedgetechno/",
-  },
-  {
     name: "Security",
     icon: "security",
     type: "app",
@@ -217,13 +200,6 @@ const apps = [
     name: "Snipping Tool",
     icon: "snip",
     type: "app",
-  },
-  {
-    name: "Twitter",
-    icon: "twitter",
-    type: "app",
-    action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
   },
   {
     name: "Teams",
@@ -308,13 +284,6 @@ const apps = [
     payload: "https://www.masastack.com/blazor",
   },
   {
-    name: "Masa Pro",
-    icon: "masa",
-    type: "svg",
-    action: "EDGELINK",
-    payload: "https://blazor-pro.masastack.com/dashboard/ecommerce",
-  },
-  {
     name: "博客园",
     icon: "cnblogs",
     type: "svg",
@@ -322,11 +291,11 @@ const apps = [
     payload: "https://www.cnblogs.com/",
   },
   {
-    name: "Perry",
-    icon: "perry",
+    name: "ChatGpt",
+    icon: "ai",
     type: "svg",
     action: "EDGELINK",
-    payload: "https://wosperry.com/",
+    payload: "https://chat.tokengo.top/",
   },
   {
     name: "Discord",
@@ -334,6 +303,13 @@ const apps = [
     type: "app",
     action: "DISCORD",
   },
+  {
+    name: "Perry",
+    icon: "perry",
+    type: "svg",
+    action: "EDGELINK",
+    payload: "https://wosperry.com/",
+  }
 ];
 
 for (let i = 0; i < installed.length; i++) {
