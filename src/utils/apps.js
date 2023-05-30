@@ -291,11 +291,11 @@ const apps = [
     payload: "https://www.cnblogs.com/",
   },
   {
-    name: "ChatGpt",
+    name: "ChatGPT AI",
     icon: "ai",
     type: "svg",
     action: "EDGELINK",
-    payload: "https://chat.tokengo.top/",
+    payload: "https://open666.cn/",
   },
   {
     name: "Discord",
